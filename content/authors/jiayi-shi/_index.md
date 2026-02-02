@@ -5,30 +5,25 @@ organization: Columbia University
 location: New York, NY
 email: jiayishi37@gmail.com
 
-# Short bio
 bio: >
   Master's student in Statistics (Machine Learning track) at Columbia University,
-  with interests in statistical modeling, interactive data analysis,
-  and large language model–based intelligent systems.
+  focusing on statistical modeling, interactive data analysis, and large language models (LLMs).
 
-# Interests
 interests:
   - Statistical Modeling
   - Interactive Data Analysis
   - Large Language Models
   - Time Series Forecasting
 
-# Education
 education:
   courses:
     - course: M.S. in Statistics (Machine Learning)
       institution: Columbia University
       year: 2026
     - course: B.S. in Data Science and Big Data Technology (Honours)
-      institution: The Chinese University of Hong Kong
+      institution: The Chinese University of Hong Kong, Shenzhen
       year: 2025
 
-# Social links
 social:
   - icon: envelope
     icon_pack: fas
@@ -44,5 +39,5 @@ social:
 ---
 
 I am a Master's student in Statistics (Machine Learning track) at Columbia University.
-My work spans statistical learning, data science, and LLM-based interactive analytics,
-with experience in both academic research and industry applications.
+My work spans statistical learning, data science, and LLM-based interactive analytics, with experience in both research and industry settings.
+
