@@ -1,11 +1,12 @@
 ---
 title: "Jiayi Shi"
-role: "M.S. Student in Statistics (Machine Learning) @ Columbia University"
+name: "Jiayi Shi"
+first_name: "Jiayi"
+last_name: "Shi"
+role: "M.A. Student in Statistics (Machine Learning) @ Columbia University"
 
-# Contact info
 email: "jiayishi37@gmail.com"
 
-# Social links
 profiles:
   - icon: linkedin
     url: "https://www.linkedin.com/in/jiayi-shi-3bab892b7"
