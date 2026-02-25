@@ -39,14 +39,17 @@ jobs:
         # Fetch history for Hugo's .GitInfo and .Lastmod
         fetch-depth: 0
 
-    - name: Setup Node.js
+        - name: Setup Node.js
       uses: actions/setup-node@v6
       with:
         node-version: ${{ env.NODE_VERSION }}
 
-    - name: Setup pnpm
+    - name: Enable Corepack (pnpm)
       if: hashFiles('package.json') != ''
-      uses: pnpm/action-setup@v4
+      run: |
+        corepack enable
+        corepack prepare pnpm@9.15.5 --activate
+        pnpm --version
 
     - name: Get Hugo Version
       id: hugo-version
