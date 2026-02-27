@@ -10,7 +10,7 @@ design:
 sections:
   - block: resume-biography-3
     content:
-      username: jiayi-shi
+      username: jiayi
       title: "Jiayi Shi"
       text: |-
         I am a Master's student in Statistics (Machine Learning track) at Columbia University.
