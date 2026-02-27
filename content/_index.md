@@ -1,5 +1,5 @@
 ---
-title: ''
+title: "Home"
 summary: ''
 date: 2024-01-01
 type: landing
@@ -86,7 +86,7 @@ sections:
       text: ''
       filters:
         folders:
-          - project
+          - projects
     design:
       view: article-grid
       columns: 2
