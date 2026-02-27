@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: ''
 summary: ''
 date: 2024-01-01
 type: landing
@@ -10,10 +10,11 @@ design:
 sections:
   - block: resume-biography-3
     content:
-    username: jiayi
-    name: "Jiayi Shi"     
-    role: "M.A. Student in Statistics (Machine Learning) @ Columbia University"  # 可选
-    text: |-
+      username: jiayi
+      name: "Jiayi Shi"
+      role: "M.A. Student in Statistics (Machine Learning) @ Columbia University"
+
+      text: |-
         I am a Master's student in Statistics (Machine Learning track) at Columbia University.
         My interests lie at the intersection of statistical modeling, interactive data analysis,
         and large language models (LLMs), with applications in forecasting, decision support,
@@ -41,7 +42,6 @@ sections:
   - block: markdown
     content:
       title: 'Research'
-      subtitle: ''
       text: |-
         My research focuses on building and evaluating intelligent data analysis systems
         that combine statistical reasoning with large language models.
@@ -67,12 +67,15 @@ sections:
     design:
       view: article-grid
       columns: 2
+      fill_image: false
+      show_date: false
+      show_read_time: false
+      show_read_more: false
 
   - block: collection
     id: publications
     content:
       title: Publications
-      text: ''
       filters:
         folders:
           - publications
@@ -84,11 +87,14 @@ sections:
     id: projects
     content:
       title: Selected Projects
-      text: ''
       filters:
         folders:
           - projects
     design:
       view: article-grid
-      columns: 2
+      columns: 3
+      fill_image: false
+      show_date: false
+      show_read_time: false
+      show_read_more: false
 ---
