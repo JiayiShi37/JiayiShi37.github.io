@@ -9,7 +9,7 @@ design:
 
 sections:
   - block: resume-biography-3
-  content:
+    content:
     username: jiayi
     name: "Jiayi Shi"     
     role: "M.A. Student in Statistics (Machine Learning) @ Columbia University"  # 可选
