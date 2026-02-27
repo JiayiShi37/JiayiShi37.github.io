@@ -9,10 +9,11 @@ design:
 
 sections:
   - block: resume-biography-3
-    content:
-      username: jiayi
-      title: "Jiayi Shi"
-      text: |-
+  content:
+    username: jiayi
+    name: "Jiayi Shi"     
+    role: "M.A. Student in Statistics (Machine Learning) @ Columbia University"  # 可选
+    text: |-
         I am a Master's student in Statistics (Machine Learning track) at Columbia University.
         My interests lie at the intersection of statistical modeling, interactive data analysis,
         and large language models (LLMs), with applications in forecasting, decision support,
