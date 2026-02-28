@@ -2,8 +2,8 @@
 title: "Data Analyst Intern"
 company: "Xiangyang City Big Data Center"
 location: "Xiangyang, China"
-date_start: "2023-05-01"
-date_end: "2023-08-31"
+date_start: "2023-12-01"
+date_end: "2024-01-31"
 
 authors: ["jiayi"]
 
