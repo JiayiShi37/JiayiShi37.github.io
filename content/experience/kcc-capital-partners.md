@@ -2,8 +2,8 @@
 title: "Investment Strategy Intern"
 company: "KCC Capital Partners"
 location: "New York, NY, USA"
-date_start: "2024-08-01"
-date_end: "2025-01-31"
+date_start: "2025-12-01"
+date_end: "2026-02-28"
 
 # 关键：避免套用模板作者
 authors: ["jiayi"]
