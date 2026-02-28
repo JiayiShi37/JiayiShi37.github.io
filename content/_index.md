@@ -1,17 +1,23 @@
 ---
-title: ''
-summary: ''
+title: ""
+summary: ""
 date: 2024-01-01
 type: landing
 
 design:
-  spacing: '6rem'
+  spacing: "6rem"
 
 sections:
+  # ===== Hero / About =====
   - block: resume-biography-3
     content:
+      # IMPORTANT: keep this as your author folder name
       username: jiayi
+
+      # IMPORTANT: force display name
       name: "Jiayi Shi"
+      title: "Jiayi Shi"
+
       role: "M.A. Student in Statistics (Machine Learning) @ Columbia University"
 
       text: |-
@@ -39,9 +45,11 @@ sections:
         size: medium
         shape: circle
 
+  # ===== Research text block =====
   - block: markdown
     content:
-      title: 'Research'
+      title: "Research"
+      subtitle: ""
       text: |-
         My research focuses on building and evaluating intelligent data analysis systems
         that combine statistical reasoning with large language models.
@@ -54,12 +62,13 @@ sections:
 
         Please feel free to reach out for collaboration.
     design:
-      columns: '1'
+      columns: "1"
 
+  # ===== Featured publications (only items with featured: true) =====
   - block: collection
     id: featured-publications
     content:
-      title: Featured Publications
+      title: "Featured Publications"
       filters:
         folders:
           - publications
@@ -67,15 +76,13 @@ sections:
     design:
       view: article-grid
       columns: 2
-      fill_image: false
-      show_date: false
-      show_read_time: false
-      show_read_more: false
 
+  # ===== Full publications list =====
   - block: collection
     id: publications
     content:
-      title: Publications
+      title: "Publications"
+      text: ""
       filters:
         folders:
           - publications
@@ -83,10 +90,12 @@ sections:
     design:
       view: citation
 
+  # ===== Projects (IMPORTANT: folder MUST be 'projects') =====
   - block: collection
     id: projects
     content:
-      title: Selected Projects
+      title: "Selected Projects"
+      text: ""
       filters:
         folders:
           - projects
