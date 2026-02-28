@@ -3,7 +3,7 @@ title: "Data Analyst Intern"
 company: "Victoria Solutions"
 location: "London, UK"
 date_start: "2025-10-01"
-date_end: "2025-12-31"
+date_end: "2025-12-01"
 
 authors: ["jiayi"]
 
